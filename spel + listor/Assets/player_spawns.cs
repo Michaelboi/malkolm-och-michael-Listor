@@ -12,14 +12,13 @@ namespace spawnpositions
     {
         System.Random X = new System.Random();
         List<Vector3> spawnpos = new List<Vector3>();
+        int defaultY = 1;
         public void position()
         {
+            spawnpos.Add(new Vector3(2, defaultY, 0));
+            spawnpos.Add(new Vector3(5, defaultY, 0));
+            spawnpos.Add(new Vector3(-1, defaultY, 0));
             
-            
-            spawnpos.Add(new Vector3(2, 1, 0));
-            spawnpos.Add(new Vector3(5, 1, 0)); 
-            
-
             gameObject.transform.position = spawnpos[X.Next(0,1)];
         }
         
