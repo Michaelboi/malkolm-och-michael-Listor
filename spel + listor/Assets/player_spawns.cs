@@ -19,7 +19,7 @@ namespace spawnpositions
             spawnpos.Add(new Vector3(5, defaultY, 0));
             spawnpos.Add(new Vector3(-1, defaultY, 0));
             
-            gameObject.transform.position = spawnpos[X.Next(0,1)];
+            gameObject.transform.position = spawnpos[X.Next(0,2)];
         }
         
         
