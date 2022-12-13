@@ -415,7 +415,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 25.759, y: 0, z: 0}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &2011870181
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,8 +434,11 @@ GameObject:
   - component: {fileID: 2011870182}
   - component: {fileID: 2011870186}
   - component: {fileID: 2011870187}
+<<<<<<< Updated upstream
   - component: {fileID: 2011870188}
   - component: {fileID: 2011870189}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -441,6 +448,7 @@ GameObject:
   m_IsActive: 1
 --- !u!136 &2011870182
 CapsuleCollider:
+<<<<<<< Updated upstream
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -520,6 +528,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2011870186
 MonoBehaviour:
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -565,12 +575,66 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011870181}
+<<<<<<< Updated upstream
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2011870186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011870181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: abf0be46ef94aeb489eb558b01fd84b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &2011870187
+Rigidbody:
+=======
+  m_Script: {fileID: 11500000, guid: e235baad38b61bd42b56c7ff2d8b1b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2011870187
+MonoBehaviour:
+>>>>>>> fe4812154e71c13a091c10a5cac1b0daec5e9ae9
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011870181}
+<<<<<<< HEAD
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+>>>>>>> Stashed changes
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+<<<<<<< Updated upstream
+=======
+=======
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ca0faf388557544bbad6bae5e5e1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> fe4812154e71c13a091c10a5cac1b0daec5e9ae9
+>>>>>>> Stashed changes
